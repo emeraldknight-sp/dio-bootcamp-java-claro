@@ -1,3 +1,5 @@
+package edu.david.segundasemana;
+
 public class BoletimEstudantil {
   public static void main(String[] args) {
 
