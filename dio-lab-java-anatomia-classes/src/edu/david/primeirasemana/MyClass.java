@@ -41,4 +41,24 @@ public class MyClass {
   // public static String fullName(String firstName, String lastName) {
   //   return firstName.concat(" ").concat(lastName);
   // }
+
+  // Como não escrever variáveis
+  // double salMedio = 1500.23;
+  // String emails = "aluno@escola.com.br";
+  // String myName = "JOSEPH";
+
+  // Variáveis declaradas corretamente
+  // double salarioMedio = 1500.23;
+  // String email = "aluno@escola.com.br";
+  // String[] emails = {"aluno@escola.com.br", "professor@escola.com.br"};
+  // String meuNome = "JOSEPH";
+
+  // Os métodos devem ser escritos conjugando verbos e em camelCase
+  // somar (int numero1, int numero2) {}
+  // abrirConexao() {}
+  // concluirProcessamento() {}
+  // findById(int id){}
+
+  // Nome dúbio, função com nome não muito claro sobre a finalidade
+  // calcularImprimir(){}
 }
