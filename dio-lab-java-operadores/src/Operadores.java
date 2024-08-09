@@ -22,9 +22,6 @@ public class Operadores {
 
         concatenacao = 1+1+1+"1";
         System.out.println(concatenacao);
-
-        concatenacao = 1+1+1+"1";
-        System.out.println(concatenacao);
         
         concatenacao = 1+1+"1"+1;
         System.out.println(concatenacao);
@@ -37,5 +34,19 @@ public class Operadores {
 
         concatenacao = "1"+(1+1+1);
         System.out.println(concatenacao);
+
+        // Usos do operador unário
+        // +, -, ++, --, !, 
+
+        int numero = 5;
+
+        System.out.println(numero);
+        System.out.println(-numero);
+
+        numero = -numero;
+        System.out.println(numero);
+
+        numero = numero * -1;
+        System.out.println(numero);
     }
 }
