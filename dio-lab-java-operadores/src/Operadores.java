@@ -109,5 +109,17 @@ public class Operadores {
 
         System.out.println(nomeUm == nomeDois);
         System.out.println(nomeUm.equals(nomeDois));
+
+        // Usos de operadores lógicos
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+
+        if (condicao1 && condicao2) {
+          System.out.println("Duas condições verdadeiras");
+        }
+
+        if (condicao1 || condicao2) {
+          System.out.println("Apenas uma condição verdadeira");
+        }
     }
 }
