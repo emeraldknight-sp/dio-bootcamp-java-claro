@@ -11,8 +11,6 @@ public class Operadores {
         // boolean doadorSangue = true;
         // Date dataNascimento = new Date();
 
-
-
         // Usos do operador aritmético
         // double soma = 10.5 + 15.7;
         // int subtracao = 113 - 25;
@@ -72,6 +70,8 @@ public class Operadores {
 
         System.out.println(variavel);
 
+        // Usos do operador ternário
+
         int a, b;
 
         a = 5;
@@ -86,5 +86,28 @@ public class Operadores {
         // }
 
         System.out.println(resultado);
+
+        // Usos de operadores relacionais
+        int numero1 = 1;
+        int numero2 = 2;
+
+        boolean simNao = numero1 == numero2;
+        System.out.println("numeroUm é igual a numeroDois? " + simNao);
+
+        simNao = numero1 != numero2;
+        System.out.println("numeroUm é igual a numeroDois? " + simNao);
+
+        simNao = numero1 > numero2;
+        System.out.println("numeroUm é igual a numeroDois? " + simNao);
+
+        String nomeUm = "David";
+        String nomeDois = "David";
+
+        System.out.println(nomeUm == nomeDois);
+
+        nomeDois = new String("David");
+
+        System.out.println(nomeUm == nomeDois);
+        System.out.println(nomeUm.equals(nomeDois));
     }
 }
