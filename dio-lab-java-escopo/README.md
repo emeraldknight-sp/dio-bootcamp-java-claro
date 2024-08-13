@@ -20,5 +20,5 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 ## Ementa - Class 01
 
 - Escopo de classe
-- Escopo de  método
+- Escopo de método
 - Escopo de fluxo
