@@ -5,7 +5,9 @@ public class CaixaEletronico {
 
     if (valorSoliticado <= saldo) {
       saldo -= valorSoliticado;
-      System.out.println("NOVO SALDO: R$ " + saldo);
+      System.out.println("Saldo: R$ " + saldo);
+    } else {
+      System.out.println("Saldo insuficiente. Seu saldo é R$ " + saldo);
     }
   }
 }
