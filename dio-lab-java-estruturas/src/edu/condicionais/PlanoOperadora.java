@@ -1,3 +1,5 @@
+package edu.condicionais;
+
 public class PlanoOperadora {
   public static void main(String[] args) {
     String plano = "T";
