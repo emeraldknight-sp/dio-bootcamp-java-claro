@@ -30,6 +30,13 @@ public class App {
     // Estruturas de repetição
     // for, while, do-while
 
+    for (int i = 1; i <= 20; i++) {
+      System.out.println(i + " carneirinho(s).");
+      if (i == 20) {
+        System.out.println("Joãozinho dormiu.");
+      }
+    }
+    
     // Estruturas de exceção
     // try-catch-finally, throw
   }
