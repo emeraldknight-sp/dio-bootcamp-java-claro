@@ -36,7 +36,14 @@ public class App {
         System.out.println("Joãozinho dormiu.");
       }
     }
-    
+
+    String[] alunos = { "FELIPE", "JONAS", "MATEUS", "OTAVIO", "PAULO" };
+
+    // Forma abreviada do for (forEach)
+    for (String aluno : alunos) {
+      System.out.println("Nome do aluno é " + aluno);
+    }
+
     // Estruturas de exceção
     // try-catch-finally, throw
   }
