@@ -1,3 +1,5 @@
+import edu.excepcionais.CepInvalidoExcecao;
+
 public class App {
   public static void main(String[] args) throws Exception {
     System.out.println("Hello, World!");
@@ -46,5 +48,21 @@ public class App {
 
     // Estruturas de exceção
     // try-catch-finally, throw
+
+    String cepFormatado;
+    try {
+      cepFormatado = formatarCep("64500600");
+      System.out.println(cepFormatado);
+    } catch (CepInvalidoExcecao e) {
+      System.out.println("O cep não corresponde com as regras de negócio.");
+    }
+  }
+
+  static String formatarCep(String cep) throws CepInvalidoExcecao {
+    if (cep.length() != 8) {
+      throw new CepInvalidoExcecao();
+    }
+
+    return "64.500-600";
   }
 }
