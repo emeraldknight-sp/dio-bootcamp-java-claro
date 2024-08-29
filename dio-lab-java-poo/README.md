@@ -39,3 +39,35 @@ POO é um paradigma de programação baseado no conceito de "objetos", que podem
 na forma de campos, também conhecidos como atributos, e códigos, na forma de procedimentos,
 também conhecidos como métodos.
 
+## Classes 
+
+Toda a estrutura de código na linguagem Java é distribuído em arquivos com extensão .java
+denominados de classe.
+
+### Class
+
+Estrutura que direciona a criação de objetos do mesmo tipo.
+
+### identificador
+
+Propósito existencial aos objetos que serão criados.
+
+### Características
+
+São também conhecidas como atributos ou propriedades, é toda informação que representa o objeto.
+
+### Comportamentos
+
+São também conhecidos como ações ou métodos, é toda parte comportamental que um objeto dispões.
+
+### Instanciar
+
+É o ato de criar um objeto a partir de uma estrutura definida em uma classe.
+
+## Convenções 
+
+Classe de modelo (Model): Representam estrutura de domínio da aplicação
+Classe de serviço (Service): Contém regras de negócio e validação no sistema
+Classe de repositório (Repository): Contém integração com banco de dados.
+Classe de controle (Controller): Que possui uma finalidade de disponibilizar comunicações.
+Classe utilitária (Util): Contém recursos comuns a toda aplicação.
