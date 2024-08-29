@@ -25,4 +25,17 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
  - Java Beans e UML
  - Pilares de POO
  - Enums e interfaces
- 
+
+## Programação Estruturada
+
+A programação estruturada é um paradigma que visa melhorar a clareza, a qualidade e o tempo de
+desenvolvimento de um programa de computador, fazendo uso extensivo das construções de fluxo
+de controle estruturado de seleção (if / then / else) e repetição (for / while / do-while),
+estruturas de bloco e sub-rotinas.
+
+## Paradigma de Programação Orientada a Objetos
+
+POO é um paradigma de programação baseado no conceito de "objetos", que podem conter dados
+na forma de campos, também conhecidos como atributos, e códigos, na forma de procedimentos,
+também conhecidos como métodos.
+
