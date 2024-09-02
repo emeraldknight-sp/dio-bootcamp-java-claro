@@ -42,4 +42,18 @@ public class App {
     // construtor padrão automaticamente. No entanto, se você definir um construtor
     // personalizado, o construtor padrão não estará mais disponível, e você terá
     // que definir um construtor sem parâmetros se precisar de um.
+
+    // UML (Unified Modeling Language) é uma linguagem gráfica padrão usada para criar
+    // diagramas que descrevem e visualizam sistemas de software.
+    // Ela facilita a comunicação entre desenvolvedores e outras partes interessadas.
+
+    // Linguagem visual: Utiliza diagramas para representar diferentes aspectos do sistema.
+    // Padrão: Oferece uma maneira uniforme de descrever sistemas complexos.
+
+    // Como usar UML:
+    // Escolha diagramas adequados: Use diagramas como Casos de Uso, Classes, Sequência e
+    // Atividades conforme suas necessidades.
+    // Defina o escopo: Comece com uma visão geral e adicione detalhes conforme o projeto avança.
+    // Mantenha a simplicidade: Crie diagramas claros e compreensíveis.
+    // Atualize regularmente: Ajuste os diagramas conforme o projeto evolui.
 }
