@@ -1,10 +1,11 @@
 package edu.fabrica.dispositivos;
 
 import edu.fabrica.aplicativos.AgendaTelefonica;
+import edu.fabrica.aplicativos.Aparelho;
 import edu.fabrica.aplicativos.NavegadorInternet;
 import edu.fabrica.aplicativos.ReprodutorAudio;
 
-public class ApplePhone implements ReprodutorAudio, AgendaTelefonica, NavegadorInternet {
+public class ApplePhone implements ReprodutorAudio, AgendaTelefonica, NavegadorInternet, Aparelho {
 
   public void buscarPaginaInternet() {
     System.out.println("BUSCANOD PAGINA DA INTERNET NO IPHONE.");
@@ -57,4 +58,16 @@ public class ApplePhone implements ReprodutorAudio, AgendaTelefonica, NavegadorI
   public void ouvirCorreioVozVirtual() {
     System.out.println("OUVINDO CORREIO DE VOZ VIRTUAL NO IPHONE.");
   }
+
+  public void ligar() {
+    System.out.println("LIGANDO IPHONE");
+  }
+
+  public void desligar() {
+    System.out.println("DESLIGANDO IPHONE");
+  }
+
+  public void carregar() {
+    System.out.println("CARREGANDO IPHONE");
+  };
 }
