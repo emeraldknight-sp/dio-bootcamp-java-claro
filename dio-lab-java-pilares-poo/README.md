@@ -19,15 +19,17 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ## Ementa
 
- - Encapsulamento: Agrupa dados e métodos relacionados em uma única unidade (objeto) e oculta os detalhes internos, expondo apenas uma interface pública para interação.
+ - Encapsulamento: Proteger o estado interno do objeto e garantir que ele seja modificado apenas de maneiras controladas. (Modificadores de Acesso - default, public, private, protected)
 
- - Herança: Permite que uma classe (subclasse) herde atributos e métodos de outra classe (superclasse), promovendo a reutilização e a criação de hierarquias de classes.
+ - Herança: Reutilizar código e criar uma hierarquia de classes. (Extensão de classes - Extends)
 
- - Polimorfismo: Permite que diferentes classes implementem métodos com o mesmo nome de maneira distinta e que um único método ou operador possa atuar de várias formas dependendo do tipo de objeto.
+ - Polimorfismo: Permitir que um único método ou operação tenha diferentes comportamentos em diferentes contextos.
 
- - Abstração: Foca nas características essenciais de um objeto, ignorando detalhes irrelevantes, e representa conceitos complexos por meio de modelos simplificados.
+ - Abstração: Simplificar a complexidade ao focar apenas nas características importantes de um objeto e ignorar os detalhes irrelevantes. (Não permite instanciar e os métodos devem ser implementados ou podem ser criados métodos padrões)
 
- - Interfaces: Na orientação a objetos, uma interface é um tipo de contrato que define um conjunto de métodos que uma classe deve implementar. Ela especifica o que uma classe deve fazer, mas não como deve fazer. As interfaces permitem a criação de um comportamento padrão que pode ser aplicado a diferentes classes, garantindo que todas implementem certos métodos de maneira consistente.
+### Interfaces
+
+ - Na orientação a objetos, uma interface é um tipo de contrato que define um conjunto de métodos que uma classe deve implementar. Ela especifica o que uma classe deve fazer, mas não como deve fazer. As interfaces permitem a criação de um comportamento padrão que pode ser aplicado a diferentes classes, garantindo que todas implementem certos métodos de maneira consistente. (Não permite instanciar e os métodos devem ser implementados ou static ou default)
 
 ### Por que Usar Interfaces?
 
