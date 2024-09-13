@@ -26,6 +26,7 @@ public class OrdenacaoPessoas {
     Collections.sort(pessoasPorAltura, new ComparatorPorAltura());
     return pessoasPorAltura;
   }
+
   public static void main(String[] args) {
     OrdenacaoPessoas registro = new OrdenacaoPessoas();
     registro.adicionarPessoa("Samuel", 16, 1.67);
