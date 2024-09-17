@@ -37,4 +37,23 @@ public class AgendaContatos {
     }
     return contatoParaAtualizar;
   }
+
+  public static void main(String[] args) {
+    AgendaContatos agenda = new AgendaContatos();
+
+    agenda.exibirContatos();
+
+    agenda.adicionarContato("Cyclops", 555);
+    agenda.adicionarContato("Wolverine", 525);
+    agenda.adicionarContato("Cyclops", 612);
+    agenda.adicionarContato("Storm", 247);
+
+    agenda.exibirContatos();
+
+    System.out.println(agenda.pesquisarPorNome("Cyclops"));
+
+    System.out.println("Contato atualizado " + agenda.atualizarNumeroContato("Storm", 490));
+
+    agenda.exibirContatos();
+  }
 }
