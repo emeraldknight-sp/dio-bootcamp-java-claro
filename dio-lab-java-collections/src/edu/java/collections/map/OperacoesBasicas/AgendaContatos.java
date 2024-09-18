@@ -30,4 +30,22 @@ public class AgendaContatos {
     return numeroPorNome;
   }
 
+  public static void main(String[] args) {
+    AgendaContatos agenda = new AgendaContatos();
+
+    agenda.adicionarContato("João", 123);
+    agenda.adicionarContato("Pedro", 224);
+    agenda.adicionarContato("Tiago", 519);
+    agenda.adicionarContato("Mateus", 456);
+    agenda.adicionarContato("Zacarias", 659);
+    agenda.adicionarContato("Tiago", 557);
+
+    agenda.exibirContatos();
+
+    agenda.removerContato("Tiago");
+    agenda.exibirContatos();
+
+    System.out.println("O número é: " + agenda.pesquisarPorNome("Pedro"));
+
+  }
 }
